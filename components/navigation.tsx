@@ -37,7 +37,6 @@ export function Navigation() {
                   height={1000}
                 />
               </motion.div>
-              {/* Power LED */}
               <div
                 className="absolute -bottom-0.5 -right-0.5 w-2 h-2 rounded-full bg-green-400"
                 style={{
