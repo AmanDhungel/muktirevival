@@ -486,7 +486,6 @@ export function CassetteTourDates() {
           </div>
         </motion.div>
 
-        {/* Tour List */}
         <div className="mt-6 sm:mt-8 grid gap-1.5 sm:gap-2">
           {tourDates.map((tour, index) => (
             <motion.button

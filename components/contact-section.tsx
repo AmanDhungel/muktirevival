@@ -117,7 +117,7 @@ export function ContactSection() {
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-zinc-700" />
                 </div>
                 <Image
-                  src="/images/sponsors/logo-4.png"
+                  src="/images/nav-log.png"
                   alt="VIBE Entertainment"
                   width={100}
                   height={100}
@@ -129,7 +129,7 @@ export function ContactSection() {
 
           {/* Bottom accent with LED indicators */}
           <div className="flex items-center justify-center gap-6 py-3 bg-zinc-900/50 border-t border-zinc-800/50">
-            {["Darwin", "Sydney", "Melbourne", "Brisbane"].map((city, i) => (
+            {["Sydney", "Canberra", "Melbourne", "Horbart"].map((city, i) => (
               <div key={city} className="flex items-center gap-1.5">
                 <motion.div
                   className="w-1.5 h-1.5 rounded-full bg-primary"

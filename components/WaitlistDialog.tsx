@@ -148,7 +148,6 @@ export function WaitListDialog({ city }: { city: string }) {
       <DialogContent className="sm:max-w-lg bg-card border border-border rounded-sm shadow-2xl p-6 md:p-8 overflow-hidden z-50 gap-0">
         <div className="absolute -top-24 -right-24 w-48 h-48 bg-primary/10 rounded-full blur-2xl pointer-events-none" />
 
-        {/* CONDITION 1: DISPLAY SUCCESS CARD VIEW INSTEAD OF INPUTS */}
         {isSuccess ? (
           <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
