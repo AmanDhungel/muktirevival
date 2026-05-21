@@ -54,7 +54,7 @@ export function Footer() {
             </h4>
             <nav className="space-y-2">
               {[
-                { label: "Tour Dates", href: "#tour" },
+                { label: "Join Waitlist", href: "#tour" },
                 { label: "Band Members", href: "#band" },
                 { label: "Contact", href: "#contact" },
               ].map((link) => (
