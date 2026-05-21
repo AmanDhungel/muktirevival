@@ -43,7 +43,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Quick Links - Styled like equipment selector */}
           <div>
             <h4 className="font-serif text-foreground mb-4 flex items-center gap-2">
               <div
