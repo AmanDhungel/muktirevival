@@ -43,6 +43,7 @@ const BANNED_DOMAINS = [
 
 export async function POST(request: Request) {
   try {
+    await connect_db();
     const body = await request.json();
     const { fullname, email, phone, city, postcode } = body;
 
