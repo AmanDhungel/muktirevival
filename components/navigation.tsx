@@ -108,7 +108,7 @@ export function Navigation() {
               }}>
               <span className="relative z-10 flex items-center gap-2 text-primary">
                 <Radio className="w-3 h-3" />
-                Get Tickets
+                Join Waitlist
               </span>
             </motion.a>
           </nav>

@@ -64,7 +64,7 @@ export default function Home() {
                   whileTap={{ scale: 0.98 }}
                   className="retro-button inline-flex items-center justify-center gap-3 px-8 py-4 text-sm uppercase tracking-[0.15em]">
                   <Calendar className="w-4 h-4 text-primary" />
-                  View Tour Dates
+                  Join Waitlist
                 </motion.a>
 
                 <motion.a

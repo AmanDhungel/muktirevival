@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Serif, Geist_Mono, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body
         className={`${instrumentSerif.variable} ${geistMono.variable} ${inter.variable} font-sans antialiased w-full overflow-x-hidden`}>
         {children}
+        <Toaster />
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
